@@ -29,7 +29,7 @@
         </div>
         <div class="row gap-row">
             <div class="col-12 position-relative">
-                <div class="swiper mySwiper position-relative">
+                <div class="swiper mySwiper swiperCategory position-relative">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide p-1">
                             <a href="#" class="category-item">
@@ -139,6 +139,38 @@
         </div>
     </section>
 
+    <section class="showcase gap-section" id="showcase">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">ArtistryIndo's Showcase of Indonesian Arts</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Welcome to the Artistry Highlights section, where we bring you the crème de la crème of Indonesian arts. Immerse yourself in a curated collection of masterpieces.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-12 position-relative">
+                <div class="swiper mySwiper swiperShowcase position-relative">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <iframe height="360" class="w-100" src="https://www.youtube.com/embed/ymIwxGhFP3k?si=RC6gHnKvgdMep6Go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe height="360" class="w-100" src="https://www.youtube.com/embed/4dh25ciA8Xo?si=Codb8_uxLRkYHOo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe height="360" class="w-100" src="https://www.youtube.com/embed/ORni1WW8T7E?si=AV9srRVAIyDSwzcf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="swiper-slide">
+                            <iframe height="360" class="w-100" src="https://www.youtube.com/embed/KBjc5Aa0IYE?si=6PTF3ldW1cbQmElj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-showcase"></div>
+            </div>
+        </div>
+    </section>
+
     {{-- MODAL --}}      
     <div class="modal fade" id="modalService1" tabindex="-1" aria-labelledby="modalService1Label" aria-hidden="true">
         <div class="modal-dialog">
@@ -207,7 +239,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".swiperCategory", {
             slidesPerView: 1,
             spaceBetween: 10,
             loop: true,
@@ -229,9 +261,25 @@
                 el: ".swiper-pagination",
                 clickable: true,
             },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+        });
+
+        var swiper = new Swiper(".swiperShowcase", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
             },
         });
     </script>

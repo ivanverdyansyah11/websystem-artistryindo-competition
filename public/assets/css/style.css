@@ -443,6 +443,11 @@ a {
 .mainpage section.service .card-service:hover .arrow-right-icon {
     background-image: url('../images/icons/arrow-right-light.svg');
 }
+
+.mainpage section.showcase .swiperShowcase .swiper-slide {
+    border-radius: 6px;
+    border: 4px solid rgba(var(--dark-color), 1);
+}
 /* END MAINPAGE */
 
 
