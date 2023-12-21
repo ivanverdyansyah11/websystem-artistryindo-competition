@@ -216,7 +216,8 @@ a {
     transition: 250ms;
 }
 
-.navbar-list .list-wrapper > .list-item:hover::before {
+.navbar-list .list-wrapper > .list-item:hover::before,
+.navbar-list .list-wrapper > .list-item.active::before {
     width: 100%;
 }
 /* END NAVBAR */
