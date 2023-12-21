@@ -23,6 +23,7 @@
     {{-- SCRIPT JS --}}
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/script.js') }}"></script>
+    @stack('js')
     {{-- END SCRIPT JS --}}
 </body>
 </html>

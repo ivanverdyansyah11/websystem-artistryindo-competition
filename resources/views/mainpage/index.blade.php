@@ -171,6 +171,44 @@
         </div>
     </section>
 
+    <section class="about d-flex align-items-center gap-section pt-4" id="about">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-xxl-6 d-none d-lg-flex">
+                <img src="{{ asset('assets/images/banners/banner-about.svg') }}" alt="Banner About" class="img-fluid banner-image">
+            </div>
+            <div class="col offset-lg-1 offset-xxl-0">
+                <h3 class="title">Discover ArtistryIndo Unveiling the Heartbeat of Indonesian Creativity</h3>
+                <div class="button-wrapper d-flex gap-2">
+                    <button type="button" class="button-reverse-extrasmall button-definition active">Definition</button>
+                    <button type="button" class="button-reverse-extrasmall button-vission">Vission & Mission</button>
+                    <button type="button" class="button-reverse-extrasmall button-history">Histories</button>
+                </div>
+                <div class="paragraph-wrapper d-flex flex-column gap-2">
+                    <p class="paragraph paragraph-1">At ArtistryIndo, we define ourselves as more than a platform; we are custodians of Indonesia's artistic legacy. Our mission goes beyond mere representation; we strive to be a dynamic force that showcases, preserves, and innovates the diverse tapestry of Indonesian arts.</p>
+                    <p class="paragraph paragraph-2">Join us in exploring the vibrant stories, traditions, and contemporary expressions that form the very essence of ArtistryIndo.</p>
+                </div>
+                <div class="row fact-wrapper">
+                    <div class="col-6 col-md-3 d-flex flex-column align-items-center text-center">
+                        <h1 class="title">240+</h1>
+                        <p class="caption">Total Art Registered</p>
+                    </div>
+                    <div class="col-6 col-md-3 d-flex flex-column align-items-center text-center">
+                        <h1 class="title">28+</h1>
+                        <p class="caption">Communities</p>
+                    </div>
+                    <div class="col-6 mt-3 mt-md-0 col-md-3 d-flex flex-column align-items-center text-center">
+                        <h1 class="title">05+</h1>
+                        <p class="caption">Award Received</p>
+                    </div>
+                    <div class="col-6 mt-3 mt-md-0 col-md-3 d-flex flex-column align-items-center text-center">
+                        <h1 class="title">645+</h1>
+                        <p class="caption">User involved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- MODAL --}}      
     <div class="modal fade" id="modalService1" tabindex="-1" aria-labelledby="modalService1Label" aria-hidden="true">
         <div class="modal-dialog">
@@ -237,50 +275,91 @@
     </div>
     {{-- END MODAL --}}
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        var swiper = new Swiper(".swiperCategory", {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            loop: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                },
-                1024: {
-                    slidesPerView: 3,
-                    spaceBetween: 10,
-                },
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
+    @push('js')
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const ButtonDefinition = document.querySelector('.button-definition');
+            const ButtonVission = document.querySelector('.button-vission');
+            const ButtonHistory = document.querySelector('.button-history');
+            const Paragraph1 = document.querySelector('.paragraph-1');
+            const Paragraph2 = document.querySelector('.paragraph-2');
 
-        var swiper = new Swiper(".swiperShowcase", {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                1024: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
+            ButtonDefinition.addEventListener('click', function() {
+                ButtonVission.classList.remove('active');
+                ButtonHistory.classList.remove('active');
+
+                ButtonDefinition.classList.add('active');
+                
+                Paragraph1.innerHTML = "At ArtistryIndo, we define ourselves as more than a platform; we are custodians of Indonesia's artistic legacy. Our mission goes beyond mere representation; we strive to be a dynamic force that showcases, preserves, and innovates the diverse tapestry of Indonesian arts.";
+
+                Paragraph2.innerHTML = "Join us in exploring the vibrant stories, traditions, and contemporary expressions that form the very essence of ArtistryIndo.";
+            });
+
+            ButtonVission.addEventListener('click', function() {
+                ButtonDefinition.classList.remove('active');
+                ButtonHistory.classList.remove('active');
+                
+                ButtonVission.classList.add('active');
+                
+                Paragraph1.innerHTML = "Our vision at ArtistryIndo is to stand as the foremost destination for the global celebration of Indonesian arts. Rooted in this vision, our mission is to preserve and showcase the rich cultural diversity of Indonesia through dynamic, immersive experiences.";
+
+                Paragraph2.innerHTML = "We are committed to fostering a deeper appreciation for Indonesian arts, connecting cultures, and providing a platform for artists to thrive.";
+            });
+
+            ButtonHistory.addEventListener('click', function() {
+                ButtonDefinition.classList.remove('active');
+                ButtonVission.classList.remove('active');
+                
+                ButtonHistory.classList.add('active');
+                
+                Paragraph1.innerHTML = "ArtistryIndo has a story that unfolds through the years, starting with our establishment in [year]. From humble beginnings, we have evolved into a cultural hub that bridges tradition and innovation. Our history is a testament to the dedication of our team, the vibrant artists we collaborate with, and the growing community of art enthusiasts who contribute to the flourishing landscape of Indonesian arts.";
+
+                Paragraph2.innerHTML = "Explore the milestones that shape ArtistryIndo's journey, as we continue to weave the threads of Indonesia's artistic heritage into the global cultural narrative.";
+            });
+
+            var swiper = new Swiper(".swiperCategory", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
                 },
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-    </script>
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var swiper = new Swiper(".swiperShowcase", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+    @endpush
 @endsection

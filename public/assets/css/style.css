@@ -90,7 +90,8 @@ a {
 }
 
 .button-primary,
-.button-reverse {
+.button-reverse,
+.button-reverse-extrasmall {
     padding: 16px 18px;
     border-radius: 6px;
     background-color: rgba(var(--primary-color), 1);
@@ -107,10 +108,28 @@ a {
     box-shadow: 3px 3px 0 rgba(var(--primary-color), 1);
 }
 
+.button-reverse-extrasmall {
+    padding: 10px 14px;
+    border-radius: 3px;
+    color: rgba(var(--dark-color), 1);
+    background-color: rgba(var(--light-color), 1);
+    border: 2px solid rgba(var(--primary-color), 1);
+    box-shadow: 3px 3px 0 rgba(var(--primary-color), 1);
+}
+
 .button-primary-small:hover,
 .button-primary:hover,
-.button-reverse:hover {
+.button-reverse:hover,
+.button-reverse-extrasmall:hover,
+.button-reverse-extrasmall.active:hover {
     box-shadow: none;
+}
+
+.button-reverse-extrasmall.active {
+    color: rgba(var(--light-color), 1);
+    background-color: rgba(var(--primary-color), 1);
+    border: 2px solid rgba(var(--dark-color), 1);
+    box-shadow: 3px 3px 0 rgba(var(--dark-color), 1);
 }
 
 .subtitle {
@@ -447,6 +466,24 @@ a {
 .mainpage section.showcase .swiperShowcase .swiper-slide {
     border-radius: 6px;
     border: 4px solid rgba(var(--dark-color), 1);
+}
+
+.mainpage section.about .title {
+    margin-bottom: 26px;
+}
+
+.mainpage section.about .paragraph-wrapper {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.mainpage section.about .fact-wrapper .title {
+    margin-bottom: 0;
+}
+.mainpage section.about .caption {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.42);
+    margin-top: 8px;
 }
 /* END MAINPAGE */
 
