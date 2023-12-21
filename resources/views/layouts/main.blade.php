@@ -9,9 +9,10 @@
     {{-- STYLE CSS --}}
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     {{-- END STYLE CSS --}}
 </head>
-<body>
+<body class="pb-5 mb-5" id="home">
     
     @include('components.navbar')
 
@@ -22,7 +23,6 @@
     {{-- SCRIPT JS --}}
     <link rel="stylesheet" href="{{ asset('asset/js/bootstrap.bundle.min.js') }}">
     <link rel="stylesheet" href="{{ asset('asset/js/script.js') }}">
-    @stack('js')
     {{-- END SCRIPT JS --}}
 </body>
 </html>
