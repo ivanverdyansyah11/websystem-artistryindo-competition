@@ -3,7 +3,7 @@
 use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\MainPageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,18 +17,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::controller(HomepageController::class, function() {
+Route::controller(MainPageController::class)->group(function () {
     Route::get('/', 'index')->name('homepage');
 });
 
-Route::controller(AboutUsController::class, function() {
+Route::controller(AboutUsController::class)->group(function () {
     Route::get('/about', 'index')->name('about');
 });
 
-Route::controller(CategoryController::class, function() {
+Route::controller(CategoryController::class)->group(function () {
     Route::get('/category', 'index')->name('category');
 });
 
-Route::controller(BlogController::class, function() {
+Route::controller(BlogController::class)->group(function () {
     Route::get('/blog', 'index')->name('blog');
 });
