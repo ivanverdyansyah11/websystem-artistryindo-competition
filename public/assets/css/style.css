@@ -500,6 +500,35 @@ a {
 .mainpage section.gallery img:hover {
     filter: saturate(0);
 }
+
+.mainpage section.testimonial .card-testimonial {
+    padding: 30px 24px;
+    border: 1px solid rgba(var(--primary-color), 0.16);
+    background-color: rgba(var(--primary-color), 0.08);
+    border-radius: 5px;
+}
+
+.mainpage section.testimonial .card-testimonial .paragraph {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.72);
+    margin: 16px 0;
+}
+
+.mainpage section.testimonial .card-testimonial .profile-wrapper img {
+    border-radius: 9999px;
+}
+
+.mainpage section.testimonial .card-testimonial .profile-wrapper .username {
+    font-size: 1rem;
+    font-family: var(--semibold-font);
+    color: rgba(var(--primary-color), 1);
+    margin-bottom: 2px;
+}
+
+.mainpage section.testimonial .card-testimonial .profile-wrapper .job {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 1);
+}
 /* END MAINPAGE */
 
 
