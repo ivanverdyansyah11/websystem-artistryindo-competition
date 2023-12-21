@@ -21,8 +21,8 @@
     </main>
 
     {{-- SCRIPT JS --}}
-    <link rel="stylesheet" href="{{ asset('asset/js/bootstrap.bundle.min.js') }}">
-    <link rel="stylesheet" href="{{ asset('asset/js/script.js') }}">
+    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
     {{-- END SCRIPT JS --}}
 </body>
 </html>
