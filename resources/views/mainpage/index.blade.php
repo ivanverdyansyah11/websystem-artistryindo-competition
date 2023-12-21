@@ -209,6 +209,58 @@
         </div>
     </section>
 
+    <section class="gallery gap-section" id="gallery">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">ArtistryIndo in the Words of Our Community</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Explore the heartfelt expressions of our community in the 'Voices of Appreciation' section. ArtistryIndo takes pride in curating an enriching cultural experience, and here.</p>
+            </div>
+        </div>
+        <div class="gap-row row-gallery">
+            <a href="{{ asset('assets/images/galleries/gallery-1.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-1.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-3.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-3.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-6.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-6.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-9.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-9.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-2.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-2.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-4.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-4.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-5.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-5.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-7.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-7.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-8.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-8.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-10.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-10.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+        </div>
+    </section>
+
     {{-- MODAL --}}      
     <div class="modal fade" id="modalService1" tabindex="-1" aria-labelledby="modalService1Label" aria-hidden="true">
         <div class="modal-dialog">
@@ -316,6 +368,8 @@
 
                 Paragraph2.innerHTML = "Explore the milestones that shape ArtistryIndo's journey, as we continue to weave the threads of Indonesia's artistic heritage into the global cultural narrative.";
             });
+
+            lightGallery(document.querySelector('.row-gallery'));
 
             var swiper = new Swiper(".swiperCategory", {
                 slidesPerView: 1,
