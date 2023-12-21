@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\HomepageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +17,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::controller(HomepageController::class, function() {
+    Route::get('/', 'index')->name('homepage');
+});
+
+Route::controller(AboutUsController::class, function() {
+    Route::get('/about', 'index')->name('about');
+});
+
+Route::controller(CategoryController::class, function() {
+    Route::get('/category', 'index')->name('category');
+});
+
+Route::controller(BlogController::class, function() {
+    Route::get('/blog', 'index')->name('blog');
 });
