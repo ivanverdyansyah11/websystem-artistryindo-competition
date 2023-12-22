@@ -18,7 +18,7 @@
         </div>
     </section>
 
-    <section class="category gap-section pt-4" id="category category-1">
+    <section class="category gap-section" id="category category-1">
         <div class="row align-items-end justify-content-between">
             <div class="col-lg-6">
                 <h3 class="title">Performing Arts Heritage at ArtistryIndo</h3>
@@ -82,6 +82,75 @@
                     <img src="{{ asset('assets/images/thumbnail-performings/thumbnail-performing-8.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
                     <h6 class="card-title">Wayang Orang, Java</h6>
                     <p class="card-caption">Explore the classical Javanese dance drama of Wayang Orang, where performers bring to lif ...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="category gap-section" id="category">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Exploring Indonesia's Rich Heritage of Musical Arts</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Dive into the enchanting world of Indonesia's musical tapestry at ArtistryIndo. From the rhythmic allure of Gamelan to the soulful melodies of Sasando, this curated collection celebrates.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-1.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Gamelan, Java and Bali</h6>
+                    <p class="card-caption">Explore the intricate world of Gamelan, a traditional ensemble of percussive instrument ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-md-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-2.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Angklung, West Java</h6>
+                    <p class="card-caption">Experience the melodic charm of Angklung, a bamboo musical instrument ensemble from ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-3.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Sasando, East Nusa Tenggara</h6>
+                    <p class="card-caption">Delight in the ethereal sounds of Sasando, a traditional stringed instrument from East Nusa ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-4.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Kolintang, North Sulawesi</h6>
+                    <p class="card-caption">Immerse yourself in the harmonious tones of Kolintang, a traditional percussion ensemble ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-5.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Saluang, West Sumatra</h6>
+                    <p class="card-caption">Discover the soulful tunes of Saluang, a traditional bamboo flute from West Sumatra ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-6.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Calung, West Java</h6>
+                    <p class="card-caption">Delight in the rhythmic beats of Calung, a traditional bamboo percussion instrument fro ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-7.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Gong Kebyar, Bali</h6>
+                    <p class="card-caption">Witness the dynamic and explosive sounds of Gong Kebyar, a Balinese gamelan ensemble ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-musics/thumbnail-music-8.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Rebab, Nationwide</h6>
+                    <p class="card-caption">Dive into the enchanting melodies of Rebab, a traditional bowed string instrument found nati ...</p>
                 </a>
             </div>
         </div>
