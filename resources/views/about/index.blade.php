@@ -529,7 +529,7 @@
         <script>
             lightGallery(document.querySelector('.row-gallery'));
 
-            var swiper = new Swiper(".swiperAward", {
+            const swiperAward = new Swiper(".swiperAward", {
                 slidesPerView: 1,
                 spaceBetween: 10,
                 loop: true,
@@ -553,7 +553,7 @@
                 },
             });
 
-            var swiper = new Swiper(".swiperTeam", {
+            const swiperTeam = new Swiper(".swiperTeam", {
                 slidesPerView: 1,
                 spaceBetween: 10,
                 loop: true,
@@ -577,7 +577,7 @@
                 },
             });
 
-            var swiper = new Swiper(".swiperTestimonial", {
+            const swiperTestimonial = new Swiper(".swiperTestimonial", {
                 slidesPerView: 1,
                 spaceBetween: 20,
                 loop: true,

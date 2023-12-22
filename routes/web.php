@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\ArtistryController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\MainPageController;
@@ -33,4 +34,8 @@ Route::controller(CategoryController::class)->group(function () {
 Route::controller(BlogController::class)->group(function () {
     Route::get('/blog', 'index')->name('blog');
     Route::get('/blog/1', 'detail')->name('blog.detail');
+});
+
+Route::controller(ArtistryController::class)->group(function () {
+    Route::get('/artistry/1', 'index')->name('artistry');
 });
