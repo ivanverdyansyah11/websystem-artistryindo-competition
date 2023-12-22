@@ -213,6 +213,59 @@ a {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
+
+form.form {
+    width: 100%;
+    display: inline-block;
+}
+
+form.form .input {
+    width: 100%;
+    padding: 15px 16px;
+    color: rgba(var(--dark-color), 0.72);
+    font-size: 0.913rem;
+    border-radius: 4px;
+    border: 2px solid rgba(var(--dark-color), 1);
+    background-color: rgba(var(--light-color), 1);
+    box-shadow: 2px 2px 0px 0px rgba(var(--dark-color), 1);
+    outline: none;
+    stroke: none;
+}
+
+form.form .input:not(:placeholder-shown),
+form.form .input:focus {
+    box-shadow: 2px 2px 0px 0px transparent;
+}
+
+.modal form.form {
+    margin-top: 32px;
+}
+
+form.form .input::placeholder {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.42);
+}
+
+.link-redirect {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.72);
+    margin-top: 32px;
+}
+
+.link-redirect button {
+    font-size: 0.913rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    stroke: none;
+    color: rgba(var(--primary-color), 1);
+    font-family: var(--semibold-font);
+    padding: 0;
+}
+
+.link-redirect button:hover {
+    text-decoration: underline;
+}
 /* END COMPONENT */
 
 

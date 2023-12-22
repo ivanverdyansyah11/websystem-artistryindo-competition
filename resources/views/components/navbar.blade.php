@@ -16,7 +16,7 @@
         </button>
         <div class="wrapper d-flex gap-2">
             <a href="#" class="button-primary-small d-none d-md-inline-block">Explore Now</a>
-            <a href="#" class="button-reverse-small d-none d-md-inline-block">Login Account</a>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#modalLogin" class="button-reverse-small d-none d-md-inline-block">Login Account</button>
         </div>
     </div>
 </nav>
@@ -30,6 +30,51 @@
         <a href="#" class="button-primary mt-3 w-100">Explore Now</a>
     </div>
 </nav>
+
+{{-- MODAL --}}
+<div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="content-header d-flex justify-content-between gap-3">
+                <h1 class="title">Login Account</h1>
+                <button type="button" class="exit-button" data-bs-dismiss="modal">
+                    <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                </button>
+            </div>
+            <div class="content-body d-flex flex-column align-items-center">
+                <form class="form">
+                    <input type="email" class="input mb-2" placeholder="Email address">
+                    <input type="password" class="input mb-4" placeholder="Password account">
+                    <button type="submit" class="button-primary w-100">Login Account</button>
+                </form>
+                <p class="link-redirect">Don't have an account? <button type="button" data-bs-toggle="modal" data-bs-target="#modalRegister">Register Now</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="modalRegisterLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="content-header d-flex justify-content-between gap-3">
+                <h1 class="title">Register Account</h1>
+                <button type="button" class="exit-button" data-bs-dismiss="modal">
+                    <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                </button>
+            </div>
+            <div class="content-body d-flex flex-column align-items-center">
+                <form class="form">
+                    <input type="text" class="input mb-2" placeholder="Username">
+                    <input type="email" class="input mb-2" placeholder="Email address">
+                    <input type="password" class="input mb-4" placeholder="Password account">
+                    <button type="submit" class="button-primary w-100">Create an Account</button>
+                </form>
+                <p class="link-redirect">Already have an account? <button type="button" data-bs-toggle="modal" data-bs-target="#modalLogin">Login Account</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+{{-- END MODAL --}}
 
 <script>
     const ButtonNavbar = document.querySelector('.navbar-button');
