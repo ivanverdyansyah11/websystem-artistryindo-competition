@@ -27,6 +27,7 @@ Route::controller(AboutUsController::class)->group(function () {
 
 Route::controller(CategoryController::class)->group(function () {
     Route::get('/category', 'index')->name('category');
+    Route::get('/category/1', 'detail')->name('category.detail');
 });
 
 Route::controller(BlogController::class)->group(function () {

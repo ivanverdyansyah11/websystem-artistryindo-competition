@@ -14,9 +14,9 @@
             <div class="line"></div>
             <div class="line"></div>
         </button>
-        <div class="wrapper d-flex gap-2">
-            <a href="#" class="button-primary-small d-none d-md-inline-block">Explore Now</a>
-            <button type="button" data-bs-toggle="modal" data-bs-target="#modalLogin" class="button-reverse-small d-none d-md-inline-block">Login Account</button>
+        <div class="wrapper d-none d-md-flex gap-2">
+            <a href="#" class="button-primary-small">Explore Now</a>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#modalLogin" class="button-reverse-small">Login Account</button>
         </div>
     </div>
 </nav>
@@ -28,6 +28,7 @@
         <a href="#" class="list-item {{ Request::is('category*') ? 'active' : '' }}">Category Art</a>
         <a href="#" class="list-item {{ Request::is('blog*') ? 'active' : '' }}">Blog ArtistryIndo</a>
         <a href="#" class="button-primary mt-3 w-100">Explore Now</a>
+        <button type="button" data-bs-toggle="modal" data-bs-target="#modalLogin" class="button-reverse w-100">Login Account</button>
     </div>
 </nav>
 

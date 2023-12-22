@@ -13,4 +13,12 @@ class CategoryController extends Controller
             'page' => 'category',
         ]);
     }
+
+    public function detail()
+    {
+        return view('category.detail', [
+            'title' => 'Detail Category ArtistryIndo Page',
+            'page' => 'detail-category',
+        ]);
+    }
 }
