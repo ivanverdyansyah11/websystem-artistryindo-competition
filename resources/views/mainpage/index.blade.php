@@ -372,6 +372,88 @@
         </div>
     </section>
 
+    <section class="blog gap-section pt-4" id="blog">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Exploring Blog the Heartbeat of Indonesian Arts</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Our blog is a curated space where we unfold stories, share insights, and provide a deeper understanding of the diverse artistic tapestry of Indonesia.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-1.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Unraveling the Threads of Indonesia's Cultural Fabric</h6>
+                    <p class="card-caption">Explore the rich history, intricate patterns, and modern interpretations of Indonesian batik.</p>
+                    <p class="card-date">Published on February 5, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-md-0">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-2.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Sculpting Tradition, Wood Carving Across Indonesian Regions</h6>
+                    <p class="card-caption">Delve into the world of traditional wood carving in Indonesia. From the symbolic motifs of Bali ...</p>
+                    <p class="card-date">Published on March 12, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-3.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Dance of Legends, Exploring Indonesia's Traditional Dance Forms</h6>
+                    <p class="card-caption">Immerse yourself in the elegance and storytelling of Indonesian traditional dance.</p>
+                    <p class="card-date">Published on April 20, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-4.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Modern Mosaics, Contemporary Art Trends in Indonesia</h6>
+                    <p class="card-caption">Step into the dynamic world of contemporary Indonesian art. This post highlights emerging ...</p>
+                    <p class="card-date">Published on May 8, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-5.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Culinary Canvas, The Art of Indonesian Cuisine</h6>
+                    <p class="card-caption">Explore the artistry of Indonesian cuisine, where flavors, colors, and traditions come together ...</p>
+                    <p class="card-date">Published on June 15, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-6.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">A Brush with Tradition: Exploring Indonesian Painting Styles</h6>
+                    <p class="card-caption">Uncover the strokes and stories behind Indonesian painting styles. This post delves int ...</p>
+                    <p class="card-date">Published on July 7, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-7.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Crafting Heritage, Indonesian Textile Traditions</h6>
+                    <p class="card-caption">Immerse yourself in the intricate world of Indonesian textiles. From the handwoven bea ...</p>
+                    <p class="card-date">Published on August 22, 2023</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-blog">
+                    <img src="{{ asset('assets/images/blogs/blog-8.svg') }}" alt="Blog Image" class="img-fluid w-100">
+                    <h6 class="card-title">Beyond Borders, Indonesian Arts and Global Influences</h6>
+                    <p class="card-caption">From international collaborations to the fusion of cultural elements, join us in exploring how ...</p>
+                    <p class="card-date">Published on September 10, 2023</p>
+                </a>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Blog Artistry</a>
+            </div>
+        </div>
+    </section>
+
     {{-- MODAL --}}      
     <div class="modal fade" id="modalService1" tabindex="-1" aria-labelledby="modalService1Label" aria-hidden="true">
         <div class="modal-dialog">
