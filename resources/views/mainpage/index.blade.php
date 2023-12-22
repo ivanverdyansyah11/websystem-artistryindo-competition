@@ -469,7 +469,7 @@
         </div>
     </section>
 
-    {{-- MODAL --}}      
+    {{-- MODAL --}}
     <div class="modal fade" id="modalService1" tabindex="-1" aria-labelledby="modalService1Label" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

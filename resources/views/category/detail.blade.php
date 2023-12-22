@@ -31,7 +31,7 @@
     </section>
 
     <section class="category" id="category">
-        <div class="row gap-row">
+        <div class="row">
             <div class="col-md-6 col-lg-3">
                 <a href="#" class="card-category">
                     <img src="{{ asset('assets/images/thumbnail-performings/thumbnail-performing-1.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
@@ -91,7 +91,7 @@
         </div>
     </section>
 
-    <section class="category gap-section pt-4" id="category">
+    <section class="category gap-section" id="category">
         <div class="row align-items-end justify-content-between">
             <div class="col-lg-6">
                 <h3 class="title">Other Arts from Various Regions on ArtistryIndo</h3>
