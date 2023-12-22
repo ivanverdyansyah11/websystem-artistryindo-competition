@@ -32,4 +32,5 @@ Route::controller(CategoryController::class)->group(function () {
 
 Route::controller(BlogController::class)->group(function () {
     Route::get('/blog', 'index')->name('blog');
+    Route::get('/blog/1', 'detail')->name('blog.detail');
 });

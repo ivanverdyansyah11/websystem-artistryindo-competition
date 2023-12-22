@@ -13,4 +13,12 @@ class BlogController extends Controller
             'page' => 'blog',
         ]);
     }
+
+    public function detail()
+    {
+        return view('blog.detail', [
+            'title' => 'Detail Blog Page',
+            'page' => 'detail-blog',
+        ]);
+    }
 }
