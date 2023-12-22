@@ -76,40 +76,40 @@
                 <div class="swiper mySwiper swiperTeam position-relative">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide p-1">
-                            <div class="team-item">
+                            <button type="button" class="team-item" data-bs-toggle="modal" data-bs-target="#modalTeam1">
                                 <img src="{{ asset('assets/images/teams/team-1.svg') }}" alt="Thumbnail Team" class="img-fluid w-100">
                                 <h6>Isha Suryawan</h6>
-                            </div>
+                            </button>
                         </div>
                         <div class="swiper-slide p-1">
-                            <div class="team-item">
+                            <button type="button" class="team-item" data-bs-toggle="modal" data-bs-target="#modalTeam2">
                                 <img src="{{ asset('assets/images/teams/team-2.svg') }}" alt="Thumbnail Team" class="img-fluid w-100">
                                 <h6>Maya Wijaya</h6>
-                            </div>
+                            </button>
                         </div>
                         <div class="swiper-slide p-1">
-                            <div class="team-item">
+                            <button type="button" class="team-item" data-bs-toggle="modal" data-bs-target="#modalTeam3">
                                 <img src="{{ asset('assets/images/teams/team-3.svg') }}" alt="Thumbnail Team" class="img-fluid w-100">
                                 <h6>Nia Damayanti</h6>
-                            </div>
+                            </button>
                         </div>
                         <div class="swiper-slide p-1">
-                            <div class="team-item">
+                            <button type="button" class="team-item" data-bs-toggle="modal" data-bs-target="#modalTeam4">
                                 <img src="{{ asset('assets/images/teams/team-4.svg') }}" alt="Thumbnail Team" class="img-fluid w-100">
                                 <h6>Ayu Desita</h6>
-                            </div>
+                            </button>
                         </div>
                         <div class="swiper-slide p-1">
-                            <div class="team-item">
+                            <button type="button" class="team-item" data-bs-toggle="modal" data-bs-target="#modalTeam5">
                                 <img src="{{ asset('assets/images/teams/team-5.svg') }}" alt="Thumbnail Team" class="img-fluid w-100">
                                 <h6>Adi Santoso</h6>
-                            </div>
+                            </button>
                         </div>
                         <div class="swiper-slide p-1">
-                            <div class="team-item">
+                            <button type="button" class="team-item" data-bs-toggle="modal" data-bs-target="#modalTeam6">
                                 <img src="{{ asset('assets/images/teams/team-6.svg') }}" alt="Thumbnail Team" class="img-fluid w-100">
                                 <h6>Rizal Hakim</h6>
-                            </div>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -182,6 +182,108 @@
                 <div class="content-body">
                     <img src="{{ asset('assets/images/awards/award-4.svg') }}" alt="Thumbnail Award" class="img-fluid w-100 img-award">
                     <p class="paragraph">ArtistryIndo is named a Global Arts Ambassador in acknowledgment of its efforts to represent and promote Indonesian arts on the international stage. This award recognizes the platform's role in bridging cultures, fostering global appreciation for Indonesian arts, and creating a platform where diverse communities come together through a shared love for creativity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeam1" tabindex="-1" aria-labelledby="modalTeam1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="content-header d-flex justify-content-between gap-3">
+                    <h1 class="title">Isha Suryawan</h1>
+                    <button type="button" class="exit-button" data-bs-dismiss="modal">
+                        <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                    </button>
+                </div>
+                <div class="content-body">
+                    <img src="{{ asset('assets/images/teams/team-1.svg') }}" alt="Thumbnail Team" class="img-fluid w-100 img-award">
+                    <p class="paragraph">Background: A seasoned curator with a passion for preserving traditional Indonesian arts, Isha brings her expertise to ArtistryIndo, ensuring that each showcased piece reflects the depth and authenticity of Indonesia's cultural heritage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeam2" tabindex="-1" aria-labelledby="modalTeam2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="content-header d-flex justify-content-between gap-3">
+                    <h1 class="title">Maya Wijaya</h1>
+                    <button type="button" class="exit-button" data-bs-dismiss="modal">
+                        <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                    </button>
+                </div>
+                <div class="content-body">
+                    <img src="{{ asset('assets/images/teams/team-3.svg') }}" alt="Thumbnail Team" class="img-fluid w-100 img-award">
+                    <p class="paragraph">Background: With a background in cultural studies and a passion for community building, Maya spearheads ArtistryIndo's community engagement initiatives. She fosters connections, organizes events, and ensures that ArtistryIndo becomes a thriving hub for art enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeam3" tabindex="-1" aria-labelledby="modalTeam3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="content-header d-flex justify-content-between gap-3">
+                    <h1 class="title">Nia Damayanti</h1>
+                    <button type="button" class="exit-button" data-bs-dismiss="modal">
+                        <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                    </button>
+                </div>
+                <div class="content-body">
+                    <img src="{{ asset('assets/images/teams/team-3.svg') }}" alt="Thumbnail Team" class="img-fluid w-100 img-award">
+                    <p class="paragraph">Background: Nia, with her deep understanding of diverse cultural practices, takes on the role of Cultural Outreach Coordinator. She ensures that ArtistryIndo collaborates with artists and communities across Indonesia, promoting inclusivity and representation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeam4" tabindex="-1" aria-labelledby="modalTeam4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="content-header d-flex justify-content-between gap-3">
+                    <h1 class="title">Ayu Desita</h1>
+                    <button type="button" class="exit-button" data-bs-dismiss="modal">
+                        <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                    </button>
+                </div>
+                <div class="content-body">
+                    <img src="{{ asset('assets/images/teams/team-4.svg') }}" alt="Thumbnail Team" class="img-fluid w-100 img-award">
+                    <p class="paragraph">Background: Ayu is the creative force behind ArtistryIndo's multimedia content. As a talented artist, he brings Indonesian arts to life through captivating visuals, videos, and interactive experiences that resonate with a global audience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeam5" tabindex="-1" aria-labelledby="modalTeam5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="content-header d-flex justify-content-between gap-3">
+                    <h1 class="title">Adi Santoso</h1>
+                    <button type="button" class="exit-button" data-bs-dismiss="modal">
+                        <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                    </button>
+                </div>
+                <div class="content-body">
+                    <img src="{{ asset('assets/images/teams/team-5.svg') }}" alt="Thumbnail Team" class="img-fluid w-100 img-award">
+                    <p class="paragraph">Background: Adi is the driving force behind ArtistryIndo's outreach and visibility. With a keen understanding of marketing strategies, he amplifies the platform's presence, ensuring that the beauty of Indonesian arts reaches a global audience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalTeam6" tabindex="-1" aria-labelledby="modalTeam6Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="content-header d-flex justify-content-between gap-3">
+                    <h1 class="title">Rizal Hakim</h1>
+                    <button type="button" class="exit-button" data-bs-dismiss="modal">
+                        <img src="{{ asset('assets/images/icons/exit.svg') }}" alt="Exit Icon" class="img-fluid" width="16">
+                    </button>
+                </div>
+                <div class="content-body">
+                    <img src="{{ asset('assets/images/teams/team-6.svg') }}" alt="Thumbnail Team" class="img-fluid w-100 img-award">
+                    <p class="paragraph">Background: As ArtistryIndo's Tech Innovator, Rizal combines his technological prowess with a deep appreciation for the arts. He's instrumental in creating an engaging online platform that seamlessly connects users with the richness of Indonesian artistic expressions.</p>
                 </div>
             </div>
         </div>
