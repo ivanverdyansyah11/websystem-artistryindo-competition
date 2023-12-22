@@ -85,6 +85,11 @@
                 </a>
             </div>
         </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Performing Arts</a>
+            </div>
+        </div>
     </section>
 
     <section class="category gap-section" id="category">
@@ -154,6 +159,11 @@
                 </a>
             </div>
         </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Musical Arts</a>
+            </div>
+        </div>
     </section>
 
     <section class="category gap-section" id="category">
@@ -214,6 +224,11 @@
                     <h6 class="card-title">Wood Carving</h6>
                     <p class="card-caption">Wood carving in Indonesia is an ancient and revered art form that transforms raw timber ...</p>
                 </a>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Traditional Arts</a>
             </div>
         </div>
     </section>
@@ -285,6 +300,11 @@
                 </a>
             </div>
         </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Literature and Folklore</a>
+            </div>
+        </div>
     </section>
 
     <section class="category gap-section" id="category">
@@ -354,6 +374,11 @@
                 </a>
             </div>
         </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Traditional Culinary</a>
+            </div>
+        </div>
     </section>
 
     <section class="category gap-section" id="category">
@@ -407,6 +432,11 @@
                     <h6 class="card-title">Aksara Lontara</h6>
                     <p class="card-caption">Aksara Lontara, originating from the Bugis and Makassar cultures of South Sulawesi, is a ...</p>
                 </a>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#" class="button-reverse">More Poetic Manuscripts</a>
             </div>
         </div>
     </section>

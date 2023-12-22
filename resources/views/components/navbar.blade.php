@@ -6,8 +6,8 @@
             </a>
             <a href="#" class="link-item d-none d-md-inline-block {{ Request::is('/') ? 'active' : '' }}">Home</a>
             <a href="#" class="link-item d-none d-md-inline-block {{ Request::is('about') ? 'active' : '' }}">About</a>
-            <a href="#" class="link-item d-none d-md-inline-block {{ Request::is('/category') ? 'active' : '' }}">Category</a>
-            <a href="#" class="link-item d-none d-md-inline-block {{ Request::is('/blog') ? 'active' : '' }}">Blog</a>
+            <a href="#" class="link-item d-none d-md-inline-block {{ Request::is('category*') ? 'active' : '' }}">Category</a>
+            <a href="#" class="link-item d-none d-md-inline-block {{ Request::is('blog*') ? 'active' : '' }}">Blog</a>
         </div>
         <button type="button" class="navbar-button d-md-none d-flex flex-column justify-content-center align-items-center gap-1">
             <div class="line"></div>
@@ -22,8 +22,8 @@
     <div class="list-wrapper text-center d-flex flex-column align-items-center gap-3">
         <a href="#" class="list-item {{ Request::is('/') ? 'active' : '' }}">Home</a>
         <a href="#" class="list-item {{ Request::is('about') ? 'active' : '' }}">About Us</a>
-        <a href="#" class="list-item {{ Request::is('/category') ? 'active' : '' }}">Category Art</a>
-        <a href="#" class="list-item {{ Request::is('/blog') ? 'active' : '' }}">Blog ArtistryIndo</a>
+        <a href="#" class="list-item {{ Request::is('category*') ? 'active' : '' }}">Category Art</a>
+        <a href="#" class="list-item {{ Request::is('blog*') ? 'active' : '' }}">Blog ArtistryIndo</a>
         <a href="#" class="button-primary mt-3 w-100">Explore Now</a>
     </div>
 </nav>
