@@ -355,4 +355,59 @@
             </div>
         </div>
     </section>
+
+    <section class="category gap-section" id="category">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Poetic Manuscripts of Indonesian Art</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">We invite you to explore the beauty of Aksara and Literature in Indonesia at ArtistryIndo. Discover the wealth of poetry embedded in every character of Aksara Jawa, Aksara Bali, more</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-poetics/thumbnail-poetic-1.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Aksara Pallawa</h6>
+                    <p class="card-caption">Aksara Pallawa, an ancient script originating from Indonesia, represents the rich historical ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-md-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-poetics/thumbnail-poetic-2.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Aksara Kawi</h6>
+                    <p class="card-caption">Aksara Kawi, an ancient script derived from the Pallava script, holds a significant place in Indo ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-poetics/thumbnail-poetic-3.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Aksara Jawa</h6>
+                    <p class="card-caption">Aksara Jawa, the Javanese script, is a venerable writing system that has played ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-poetics/thumbnail-poetic-4.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Aksara Bali</h6>
+                    <p class="card-caption">Aksara Bali, the Balinese script, stands as a testament to the rich cultural and artistic trad ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-poetics/thumbnail-poetic-5.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Aksara Sasak</h6>
+                    <p class="card-caption">Aksara Sasak, the script of the Sasak people in Lombok, Indonesia, is a unique writing system ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-poetics/thumbnail-poetic-6.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Aksara Lontara</h6>
+                    <p class="card-caption">Aksara Lontara, originating from the Bugis and Makassar cultures of South Sulawesi, is a ...</p>
+                </a>
+            </div>
+        </div>
+    </section>
 @endsection
