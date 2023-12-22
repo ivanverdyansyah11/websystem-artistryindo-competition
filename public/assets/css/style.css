@@ -350,7 +350,8 @@ a {
 
 
 /* MAINPAGE */
-.mainpage .hero {
+.mainpage .hero,
+.about .hero {
     height: 88vh;
 }
 
@@ -686,7 +687,8 @@ footer.copyright .copyright {
         width: 100%;
     }
 
-    .mainpage .hero {
+    .mainpage .hero,
+    .about .hero {
         height: fit-content;
     }
 
