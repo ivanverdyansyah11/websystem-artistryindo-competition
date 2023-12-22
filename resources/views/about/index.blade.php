@@ -17,4 +17,77 @@
             </div>
         </div>
     </section>
+
+    <section class="award gap-section" id="award">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">ArtistryIndo's Journey in the Spotlight</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Explore the journey of ArtistryIndo through the lens of recognition and acclaim. Our commitment to promoting and preserving the diverse tapestry of Indonesian arts.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-12 position-relative">
+                <div class="swiper mySwiper swiperAward position-relative">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide p-1">
+                            <a href="#" class="award-item">
+                                <img src="{{ asset('assets/images/awards/award-1.svg') }}" alt="Thumbnail Award" class="img-fluid w-100">
+                                <h6>Batik Heritage and Wayang Kulit</h6>
+                            </a>
+                        </div>
+                        <div class="swiper-slide p-1">
+                            <a href="#" class="award-item">
+                                <img src="{{ asset('assets/images/awards/award-2.svg') }}" alt="Thumbnail Award" class="img-fluid w-100">
+                                <h6>Innovation in Arts Platform</h6>
+                            </a>
+                        </div>
+                        <div class="swiper-slide p-1">
+                            <a href="#" class="award-item">
+                                <img src="{{ asset('assets/images/awards/award-3.svg') }}" alt="Thumbnail Award" class="img-fluid w-100">
+                                <h6>Community Impact Award</h6>
+                            </a>
+                        </div>
+                        <div class="swiper-slide p-1">
+                            <a href="#" class="award-item">
+                                <img src="{{ asset('assets/images/awards/award-4.svg') }}" alt="Thumbnail Award" class="img-fluid w-100">
+                                <h6>Global Arts Ambassador</h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-award"></div>
+            </div>
+        </div>
+    </section>
+
+    @push('js')
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".swiperAward", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 10,
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 10,
+                    },
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+        </script>
+    @endpush
 @endsection
