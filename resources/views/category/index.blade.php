@@ -155,4 +155,66 @@
             </div>
         </div>
     </section>
+
+    <section class="category gap-section" id="category">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Traditional Fine Arts at ArtistryIndo</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Embark on a visual odyssey through Indonesia's rich heritage of Traditional Fine Arts at ArtistryIndo. From the intricate details of Batik to the mesmerizing strokes of Wayang Kulit.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-1.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Batik Art</h6>
+                    <p class="card-caption">Explore the intricate world of Batik, a traditional Indonesian textile art where wax-resist dyein ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-md-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-2.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Wayang Kulit</h6>
+                    <p class="card-caption">Immerse yourself in the magical realm of Wayang Kulit, a traditional Javanese shadow ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-3.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Wayang Golek</h6>
+                    <p class="card-caption">Wayang Golek, a traditional Indonesian puppetry art form, comes to life with intricatel ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-4.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Songket Art</h6>
+                    <p class="card-caption">Songket, a traditional Indonesian textile art, exemplifies exquisite craftsmanship through ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-5.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Keris</h6>
+                    <p class="card-caption">The Keris, a traditional Indonesian dagger, is a symbol of cultural identity, craftsmanship, ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-6.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Noken Bag</h6>
+                    <p class="card-caption">The Noken bag, originating from Papua, Indonesia, is a unique and eco-friendly traditi ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-arts/thumbnail-art-7.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Wood Carving</h6>
+                    <p class="card-caption">Wood carving in Indonesia is an ancient and revered art form that transforms raw timber ...</p>
+                </a>
+            </div>
+        </div>
+    </section>
 @endsection
