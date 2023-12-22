@@ -217,4 +217,73 @@
             </div>
         </div>
     </section>
+
+    <section class="category gap-section" id="category">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Indonesian Literature and Folklore at ArtistryIndo</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Embark on a literary journey through the heart of Indonesia's rich heritage at ArtistryIndo. From the eloquence of ancient epics to the charm of traditional folklore.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-1.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Lutung Kasarung</h6>
+                    <p class="card-caption">Lutung Kasarung is a traditional Sundanese folktale from West Java, Indonesia, recounting ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-md-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-2.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Sangkuriang</h6>
+                    <p class="card-caption">Sangkuriang, a popular Javanese folklore, narrates the tale of unrequited love and cosm ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-3.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Malin Kundang</h6>
+                    <p class="card-caption">Malin Kundang, a well-known Indonesian folklore, tells the poignant story of a young ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-4.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Danau Toba</h6>
+                    <p class="card-caption">Danau Toba, nestled in the highlands of North Sumatra, is a majestic volcanic lake known fo ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-5.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Bawang Merah dan Bawang Putih</h6>
+                    <p class="card-caption">The tale of "Bawang Merah dan Bawang Putih" is a timeless Indonesian folktale that explores ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-6.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Si Pitung</h6>
+                    <p class="card-caption">Si Pitung, a legendary figure from Betawi folklore, is celebrated as a folk hero and symb ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-7.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Cindelaras</h6>
+                    <p class="card-caption">Cindelaras, a beloved Javanese folklore, unfolds a narrative of a magical rooster and a young ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-folklores/thumbnail-folklore-8.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Keong Mas</h6>
+                    <p class="card-caption">"Keong Mas," a captivating Indonesian folktale, unfolds the enchanting story of a golden snail ...</p>
+                </a>
+            </div>
+        </div>
+    </section>
 @endsection
