@@ -14,7 +14,10 @@
             <div class="line"></div>
             <div class="line"></div>
         </button>
-        <a href="#" class="button-primary-small d-none d-md-inline-block">Explore Now</a>
+        <div class="wrapper d-flex gap-2">
+            <a href="#" class="button-primary-small d-none d-md-inline-block">Explore Now</a>
+            <a href="#" class="button-reverse-small d-none d-md-inline-block">Login Account</a>
+        </div>
     </div>
 </nav>
 
