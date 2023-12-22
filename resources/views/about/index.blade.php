@@ -118,6 +118,62 @@
         </div>
     </section>
 
+    <section class="mission d-flex align-items-center gap-section pt-4" id="mission">
+        <div class="row align-items-center">
+            <div class="col">
+                <h3 class="title">ArtistryIndo's Cultural Odyssey Unveiling Our Mission in Indonesian Arts</h3>
+                <p class="paragraph">Embark on a journey with ArtistryIndo as we unveil the guiding principles that steer our cultural odyssey. Our mission goes beyond being a platform; it is a commitment to celebrate, preserve, and innovate the rich tapestry of Indonesian arts.</p>
+                <div class="row mission-wrapper">
+                    <div class="col-md-6 d-flex gap-3">
+                        <img src="{{ asset('assets/images/icons/check.svg') }}" alt="Checklist Icon" class="img-fluid" width="22">
+                        <div class="wrapper">
+                            <p class="mission-caption">ArtistryIndo's Commitment</p>
+                            <p class="mission-title">Preserving Heritage, Igniting Creativity</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex gap-3 mt-3 mt-md-0">
+                        <img src="{{ asset('assets/images/icons/check.svg') }}" alt="Checklist Icon" class="img-fluid" width="22">
+                        <div class="wrapper">
+                            <p class="mission-caption">ArtistryIndo's Enduring Mission</p>
+                            <p class="mission-title">Unveiling Beauty, Connecting Hearts</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex gap-3 mt-3">
+                        <img src="{{ asset('assets/images/icons/check.svg') }}" alt="Checklist Icon" class="img-fluid" width="22">
+                        <div class="wrapper">
+                            <p class="mission-caption">ArtistryIndo's Unwavering Mission</p>
+                            <p class="mission-title">Connecting Cultures, Inspiring Expression</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex gap-3 mt-3">
+                        <img src="{{ asset('assets/images/icons/check.svg') }}" alt="Checklist Icon" class="img-fluid" width="22">
+                        <div class="wrapper">
+                            <p class="mission-caption">ArtistryIndo's Pioneering Mission</p>
+                            <p class="mission-title">Celebrating Diversity, Inspiring Unity</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex gap-3 mt-3">
+                        <img src="{{ asset('assets/images/icons/check.svg') }}" alt="Checklist Icon" class="img-fluid" width="22">
+                        <div class="wrapper">
+                            <p class="mission-caption">ArtistryIndo's Visionary Mission</p>
+                            <p class="mission-title">Elevating Art, Empowering Artists</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex gap-3 mt-3">
+                        <img src="{{ asset('assets/images/icons/check.svg') }}" alt="Checklist Icon" class="img-fluid" width="22">
+                        <div class="wrapper">
+                            <p class="mission-caption">ArtistryIndo's Everlasting Mission</p>
+                            <p class="mission-title">Innovating Tradition, Connecting Generations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-xxl-6 d-none d-lg-flex justify-content-end">
+                <img src="{{ asset('assets/images/banners/banner-mission.svg') }}" alt="Banner Mission" class="img-fluid banner-image">
+            </div>
+        </div>
+    </section>
+
     {{-- MODAL --}}
     <div class="modal fade" id="modalAward1" tabindex="-1" aria-labelledby="modalAward1Label" aria-hidden="true">
         <div class="modal-dialog">

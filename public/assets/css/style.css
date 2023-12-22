@@ -159,7 +159,8 @@ a {
     line-height: 150%;
 }
 
-.button-group {
+.button-group,
+.mission-wrapper {
     margin-top: 32px;
 }
 
@@ -376,6 +377,7 @@ a {
     border: none;
     stroke: none;
     outline: none;
+    width: 100%;
 }
 
 .mainpage section.category .category-item > img,
@@ -633,6 +635,28 @@ a {
     width: 1200px;
     height: 1200px;
     background-color: rgba(var(--light-color), 0.06);
+}
+
+.about section.mission .paragraph {
+    margin-top: 32px;
+}
+
+.about section.mission .mission-wrapper img {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0px 0px rgba(var(--dark-color), 1);
+}
+
+.about section.mission .mission-wrapper .mission-caption {
+    font-size: 0.813rem;
+    color: rgba(var(--dark-color), 0.42);
+    margin-bottom: 2px;
+}
+
+.about section.mission .mission-wrapper .mission-title {
+    color: rgba(var(--dark-color), 1);
+    font-size: 0.913rem;
 }
 /* END MAINPAGE */
 
