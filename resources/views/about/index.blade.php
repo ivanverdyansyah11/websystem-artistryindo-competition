@@ -174,6 +174,184 @@
         </div>
     </section>
 
+    <section class="gallery gap-section" id="gallery">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Capturing the Essence of Indonesian Arts</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Immerse yourself in a visual journey that captures the essence of traditional and contemporary expressions. Our Gallery Documentation section is a testament to the diverse beauty.</p>
+            </div>
+        </div>
+        <div class="gap-row row-gallery">
+            <a href="{{ asset('assets/images/galleries/gallery-1.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-1.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-3.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-3.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-6.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-6.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-9.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-9.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-2.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-2.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-4.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-4.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-5.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-5.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-7.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-7.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+             <a href="{{ asset('assets/images/galleries/gallery-8.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-8.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+
+            <a href="{{ asset('assets/images/galleries/gallery-10.svg') }}" data-lightbox="gallery-documentation" class="w-100">
+                <img src="{{ asset('assets/images/galleries/gallery-10.svg') }}" alt="Image Gallery" class="img-fluid w-100 image-gallery">
+            </a>
+        </div>
+    </section>
+
+    <section class="testimonial gap-section" id="testimonial">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">ArtistryIndo in the Words of Our Community</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Explore the heartfelt expressions of our community in the 'Voices of Appreciation' section. ArtistryIndo takes pride in curating an enriching cultural experience, and here.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-12 position-relative">
+                <div class="swiper mySwiper swiperTestimonial position-relative">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“ArtistryIndo has become my virtual haven for inspiration. As a graphic designer, the diverse palette of Indonesian arts fuels my creativity.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-1.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">Sarah Kingston</h6>
+                                        <p class="job">Graphic Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“ArtistryIndo played a pivotal role in elevating my art career. Being featured here gave my work exposure beyond my expectations.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-2.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">James Mitchell</h6>
+                                        <p class="job">Emerging Artist</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“ArtistryIndo is not just a platform; it's a cultural phenomenon. As a marketing professional, I appreciate how it seamlessly combines.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-3.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">Mia Lawson</h6>
+                                        <p class="job">Marketing Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“ArtistryIndo is a beacon for preserving traditional Indonesian arts. As a cultural preservationist, I've witnessed the platform's impact.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-4.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">Alex Harrison</h6>
+                                        <p class="job">Cultural Preservationist</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“ArtistryIndo has been an invaluable resource for infusing cultural richness into my travel narratives. The content is not just informative.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-5.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">Grace Wanderer</h6>
+                                        <p class="job">Travel Blogger</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“As a music enthusiast, ArtistryIndo has broadened my horizons to the enchanting world of Indonesian music and performing arts.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-6.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">Jazz Harmony</h6>
+                                        <p class="job">Music Enthusiast</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <img src="{{ asset('assets/images/icons/quote-testimonial.svg') }}" alt="Quote Icon" class="img-fluid" width="30">
+                                <p class="paragraph">“ArtistryIndo's seamless integration of technology with cultural exploration is truly commendable. The user-friendly interface and immersive content.”</p>
+                                <div class="profile-wrapper d-flex align-items-center gap-2">
+                                    <img src="{{ asset('assets/images/testimonials/testimonial-7.svg') }}" alt="Testimonial Image Profile" class="img-fluid" width="38">
+                                    <div class="wrapper">
+                                        <h6 class="username">Tech Explorer</h6>
+                                        <p class="job">Technology Analyst</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta gap-section position-relative" id="cta">
+        <div class="style-1"></div>
+        <div class="style-2"></div>
+        <div class="row justify-content-center position-relative">
+            <div class="col-lg-8 d-flex flex-column align-items-md-center text-md-center">
+                <h1 class="headline">Get Involved with ArtistryIndo Today!</h1>
+                <p class="paragraph">Ready to experience the magic of Indonesian arts up close? ArtistryIndo invites you to get involved and be part of our vibrant community. From engaging with artists to participating in cultural events</p>
+                <div class="button-group d-flex gap-2 m-0">
+                    <a href="#" class="button-primary">Explore Artistic Now</a>
+                    <a href="#" class="button-reverse">About ArtistryIndo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     {{-- MODAL --}}
     <div class="modal fade" id="modalAward1" tabindex="-1" aria-labelledby="modalAward1Label" aria-hidden="true">
         <div class="modal-dialog">
@@ -349,6 +527,8 @@
     @push('js')
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
+            lightGallery(document.querySelector('.row-gallery'));
+
             var swiper = new Swiper(".swiperAward", {
                 slidesPerView: 1,
                 spaceBetween: 10,
@@ -389,6 +569,30 @@
                     1024: {
                         slidesPerView: 4,
                         spaceBetween: 10,
+                    },
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var swiper = new Swiper(".swiperTestimonial", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    1024: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
                     },
                 },
                 pagination: {
