@@ -614,6 +614,60 @@ a {
 /* END MAINPAGE */
 
 
+/* FOOTER */
+footer.footer {
+    background-color: rgba(var(--primary-color), 0.08);
+    border-top: 1px solid rgba(var(--primary-color), 0.16);
+    padding: 100px 0;
+}
+
+footer.footer .caption {
+    font-size: 0.913rem;
+    color: rgba(var(--dark-color), 0.72);
+    margin-top: 14px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+footer.footer .sosmed-item {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(var(--primary-color), 0.16);
+}
+
+footer.footer .sosmed-item:hover {
+    background-color: rgba(var(--primary-color), 0.08);
+}
+
+footer.footer .footer-title {
+    font-size: 1.125rem;
+    color: rgba(var(--primary-color), 1);
+    font-family: var(--semibold-font);
+    margin-bottom: 16px;
+}
+
+footer.footer .link-item {
+    color: rgba(var(--dark-color), 0.72);
+    font-size: 0.913rem;
+}
+
+footer.footer .link-item:hover {
+    color: rgba(var(--dark-color), 1);
+}
+
+footer.copyright {
+    padding: 22px 0;
+    background-color: rgba(var(--primary-color), 0.08);
+    border-top: 1px solid  rgba(var(--primary-color), 0.16);
+}
+footer.copyright .copyright {
+    font-size: 0.875rem;
+    color: rgba(var(--dark-color), 0.42);
+}
+/* END FOOTER */
+
+
 /* RESPONSIVE */
 @media (max-width: 1199.98px) {
     .headline {
@@ -659,6 +713,11 @@ a {
     .row-gallery {
         grid-template-columns: 1fr 1fr;
     }
+
+    footer.footer .caption {
+        width: 60%;
+        text-align: center;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -691,6 +750,10 @@ a {
     }
 
     .mainpage section.cta .paragraph {
+        width: 100%;
+    }
+
+    footer.footer .caption {
         width: 100%;
     }
 }
