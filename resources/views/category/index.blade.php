@@ -286,4 +286,73 @@
             </div>
         </div>
     </section>
+
+    <section class="category gap-section" id="category">
+        <div class="row align-items-end justify-content-between">
+            <div class="col-lg-6">
+                <h3 class="title">Traditional Culinary Delights at ArtistryIndo</h3>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+                <p class="paragraph">Indulge your senses in the culinary treasures of Indonesia at ArtistryIndo. Our curated collection of traditional delights invites you to savor the rich flavors, aromas, and cultural stories.</p>
+            </div>
+        </div>
+        <div class="row gap-row">
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-1.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Mie Aceh (Aceh Province)</h6>
+                    <p class="card-caption">Mie Aceh, hailing from the vibrant Aceh Province, is a culinary masterpiece known for ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-md-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-2.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Bika Ambon (North Sumatra)</h6>
+                    <p class="card-caption">Bika Ambon, a delectable treat originating from North Sumatra, is a beloved Indonesian cake ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-3.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Rendang</h6>
+                    <p class="card-caption">Bika Rendang, a culinary gem hailing from Sumatra Barat (West Sumatra), is a unique ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4 mt-lg-0">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-4.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Pendap (Bengkulu Province)</h6>
+                    <p class="card-caption">Pendap, a culinary treasure from Bengkulu Province, reflects the region's dedication to ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-5.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Belacan Curry (Riau Province)</h6>
+                    <p class="card-caption">Belacan Curry, a culinary gem from Riau Province, is a tantalizing blend of flavors that ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-6.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Pempek (South Sumatra)</h6>
+                    <p class="card-caption">Pempek, a culinary pride of South Sumatra, is a delectable dish that perfectly marries savory ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-7.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Mi Bangka (Bangka Belitung)</h6>
+                    <p class="card-caption">Mi Bangka, originating from the pristine islands of Bangka Belitung, is a culinary delight that ...</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3 mt-4">
+                <a href="#" class="card-category">
+                    <img src="{{ asset('assets/images/thumbnail-culinaries/thumbnail-culinary-8.svg') }}" alt="Thumbnail Image" class="img-fluid w-100">
+                    <h6 class="card-title">Seruit (Lampung)</h6>
+                    <p class="card-caption">Seruit, a culinary gem from Lampung, is a tantalizing blend of shredded fish, coconut ...</p>
+                </a>
+            </div>
+        </div>
+    </section>
 @endsection
