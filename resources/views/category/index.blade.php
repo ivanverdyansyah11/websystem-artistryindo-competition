@@ -410,4 +410,19 @@
             </div>
         </div>
     </section>
+
+    <section class="cta gap-section position-relative" id="cta">
+        <div class="style-1"></div>
+        <div class="style-2"></div>
+        <div class="row justify-content-center position-relative">
+            <div class="col-lg-8 d-flex flex-column align-items-md-center text-md-center">
+                <h1 class="headline">Get Involved with ArtistryIndo Today!</h1>
+                <p class="paragraph">Ready to experience the magic of Indonesian arts up close? ArtistryIndo invites you to get involved and be part of our vibrant community. From engaging with artists to participating in cultural events</p>
+                <div class="button-group d-flex gap-2 m-0">
+                    <a href="#" class="button-primary">Explore Artistic Now</a>
+                    <a href="#" class="button-reverse">About ArtistryIndo</a>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

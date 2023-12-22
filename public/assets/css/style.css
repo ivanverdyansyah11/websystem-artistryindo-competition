@@ -603,7 +603,8 @@ a {
 }
 
 .mainpage section.cta,
-.about section.cta {
+.about section.cta,
+.category section.cta {
     overflow: hidden;
     padding: 72px 0;
     background-color: rgba(var(--primary-color), 1);
@@ -613,31 +614,36 @@ a {
 }
 
 .mainpage section.cta .headline,
-.about section.cta .headline {
+.about section.cta .headline,
+.category section.cta .headline {
     color: rgba(var(--light-color), 1);
     margin: 0;
 }
 
 .mainpage section.cta .paragraph,
-.about section.cta .paragraph {
+.about section.cta .paragraph,
+.category section.cta .paragraph {
     color: rgba(var(--light-color), 1);
     margin: 36px 0;
     width: 70%;
 }
 
 .mainpage section.cta .button-reverse,
-.about section.cta .button-reverse {
+.about section.cta .button-reverse,
+.category section.cta .button-reverse {
     border: 2px solid rgba(var(--dark-color), 1);
     box-shadow: 3px 3px 0 rgba(var(--dark-color), 1);
 }
 
 .mainpage section.cta .button-reverse:hover,
-.about section.cta .button-reverse:hover {
+.about section.cta .button-reverse:hover,
+.category section.cta .button-reverse:hover {
     box-shadow: none;
 }
 
 .mainpage section.cta .style-1,
-.about section.cta .style-1 {
+.about section.cta .style-1,
+.category section.cta .style-1 {
     position: absolute;
     top: -30%;
     right: -30%;
@@ -648,7 +654,8 @@ a {
 }
 
 .mainpage section.cta .style-2,
-.about section.cta .style-2 {
+.about section.cta .style-2,
+.category section.cta .style-2 {
     position: absolute;
     top: -30%;
     right: -65%;
@@ -761,7 +768,8 @@ footer.copyright .copyright {
     }
 
     .mainpage section.cta .paragraph,
-    .about section.cta .paragraph {
+    .about section.cta .paragraph,
+    .category section.cta .paragraph {
         width: 80%;
     }
 }
@@ -817,12 +825,14 @@ footer.copyright .copyright {
     }
 
     .mainpage section.cta,
-    .about section.cta {
+    .about section.cta,
+    .category section.cta {
         padding: 52px 6px;
     }
 
     .mainpage section.cta .paragraph,
-    .about section.cta .paragraph {
+    .about section.cta .paragraph,
+    .category section.cta .paragraph {
         width: 100%;
     }
 
