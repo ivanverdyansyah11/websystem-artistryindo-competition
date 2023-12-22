@@ -444,6 +444,7 @@ form.form .input::placeholder {
 }
 
 .mainpage section.category .category-item > img,
+.detail-category section.category .category-item > img,
 .about section.award .award-item > img,
 .about section.team .team-item > img {
     border-radius: 6px;
@@ -452,6 +453,7 @@ form.form .input::placeholder {
 }
 
 .mainpage section.category .category-item:hover > img,
+.detail-category section.category .category-item:hover > img,
 .about section.award .award-item:hover > img,
 .about section.team .team-item:hover > img {
     box-shadow: 4px 4px 0px 0px rgba(var(--dark-color), 1);
@@ -459,6 +461,7 @@ form.form .input::placeholder {
 }
 
 .mainpage section.category .category-item > h6,
+.detail-category section.category .category-item > h6,
 .about section.award .award-item > h6,
 .about section.team .team-item > h6 {
     opacity: 0;
@@ -475,6 +478,7 @@ form.form .input::placeholder {
 }
 
 .mainpage section.category .category-item:hover > h6,
+.detail-category section.category .category-item:hover > h6,
 .about section.award .award-item:hover > h6,
 .about section.team .team-item:hover > h6 {
     opacity: 1;
@@ -637,19 +641,22 @@ form.form .input::placeholder {
 }
 
 .mainpage section.blog .card-blog img,
-.category section.category .card-category img {
+.category section.category .card-category img,
+.detail-category section.category .card-category img {
     border: 4px solid rgba(var(--dark-color), 1);
     border-radius: 5px;
     box-shadow: 4px 4px 0px 0px transparent;
 }
 
 .mainpage section.blog .card-blog:hover img,
-.category section.category .card-category:hover img {
+.category section.category .card-category:hover img,
+.detail-category section.category .card-category:hover img {
     box-shadow: 4px 4px 0px 0px rgba(var(--dark-color), 1);
 }
 
 .mainpage section.blog .card-blog .card-title,
-.category section.category .card-category .card-title {
+.category section.category .card-category .card-title,
+.detail-category section.category .card-category .card-title {
     font-size: 1rem;
     color: rgba(var(--dark-color), 1);
     margin: 14px 0 4px 0;
@@ -658,26 +665,30 @@ form.form .input::placeholder {
 }
 
 .mainpage section.blog .card-blog:hover .card-title,
-.category section.category .card-category:hover .card-title {
+.category section.category .card-category:hover .card-title,
+.detail-category section.category .card-category:hover .card-title {
     color: rgba(var(--primary-color), 1);
 }
 
 .mainpage section.blog .card-blog .card-caption,
-.category section.category .card-category .card-caption {
+.category section.category .card-category .card-caption,
+.detail-category section.category .card-category .card-caption {
     color: rgba(var(--dark-color), 0.72);
     font-size: 0.875rem;
     margin-bottom: 12px;
 }
 
 .mainpage section.blog .card-blog .card-date,
-.category section.category .card-category .card-date {
+.category section.category .card-category .card-date,
+.detail-category section.category .card-category .card-date {
     font-size: 0.813rem;
     color: rgba(var(--dark-color), 0.42);
 }
 
 .mainpage section.cta,
 .about section.cta,
-.category section.cta {
+.category section.cta,
+.detail-category section.cta {
     overflow: hidden;
     padding: 72px 0;
     background-color: rgba(var(--primary-color), 1);
@@ -688,14 +699,16 @@ form.form .input::placeholder {
 
 .mainpage section.cta .headline,
 .about section.cta .headline,
-.category section.cta .headline {
+.category section.cta .headline,
+.detail-category section.cta .headline {
     color: rgba(var(--light-color), 1);
     margin: 0;
 }
 
 .mainpage section.cta .paragraph,
 .about section.cta .paragraph,
-.category section.cta .paragraph {
+.category section.cta .paragraph,
+.detail-category section.cta .paragraph {
     color: rgba(var(--light-color), 1);
     margin: 36px 0;
     width: 70%;
@@ -703,20 +716,23 @@ form.form .input::placeholder {
 
 .mainpage section.cta .button-reverse,
 .about section.cta .button-reverse,
-.category section.cta .button-reverse {
+.category section.cta .button-reverse,
+.detail-category section.cta .button-reverse {
     border: 2px solid rgba(var(--dark-color), 1);
     box-shadow: 3px 3px 0 rgba(var(--dark-color), 1);
 }
 
 .mainpage section.cta .button-reverse:hover,
 .about section.cta .button-reverse:hover,
-.category section.cta .button-reverse:hover {
+.category section.cta .button-reverse:hover,
+.detail-category section.cta .button-reverse:hover {
     box-shadow: none;
 }
 
 .mainpage section.cta .style-1,
 .about section.cta .style-1,
-.category section.cta .style-1 {
+.category section.cta .style-1,
+.detail-category section.cta .style-1 {
     position: absolute;
     top: -30%;
     right: -30%;
@@ -728,7 +744,8 @@ form.form .input::placeholder {
 
 .mainpage section.cta .style-2,
 .about section.cta .style-2,
-.category section.cta .style-2 {
+.category section.cta .style-2,
+.detail-category section.cta .style-2 {
     position: absolute;
     top: -30%;
     right: -65%;
@@ -873,7 +890,8 @@ footer.copyright .copyright {
 
     .mainpage section.cta .paragraph,
     .about section.cta .paragraph,
-    .category section.cta .paragraph {
+    .category section.cta .paragraph,
+    .detail-category section.cta .paragraph {
         width: 80%;
     }
 }
@@ -934,13 +952,15 @@ footer.copyright .copyright {
 
     .mainpage section.cta,
     .about section.cta,
-    .category section.cta {
+    .category section.cta,
+    .detail-category section.cta {
         padding: 52px 6px;
     }
 
     .mainpage section.cta .paragraph,
     .about section.cta .paragraph,
-    .category section.cta .paragraph {
+    .category section.cta .paragraph,
+    .detail-category section.cta .paragraph {
         width: 100%;
     }
 
